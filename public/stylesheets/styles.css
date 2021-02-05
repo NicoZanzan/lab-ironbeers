@@ -5,3 +5,16 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+
+a{
+    color:black;
+    text-decoration: none;
+    
+}
+
+div {
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items:center;
+}

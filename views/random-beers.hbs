@@ -1,0 +1,12 @@
+<section>
+    <img src="{{chosenBeer.image_url}}" alt="">
+    <h2>{{chosenBeer.name}}</h2>
+    <p>{{chosenBeer.description}}</p>
+    <h4>{{chosen.Beer.tagline}}</h4>
+    <ul>
+       {{#each chosenBeer.food_pairing}} 
+       <li>{{this}}</li>
+       {{/each}}
+    </ul>
+    <h3>{{chosenBeer.brewers_tips}}</h3>
+</section>
